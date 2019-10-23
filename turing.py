@@ -9,5 +9,5 @@ def turing(av):
 		return
 	machine = Machine(av[1])
 
-	machine.print_data()
-	machine.start_machine(av[2])
+	machine.print_data(100)
+	machine.start_parse(av[2], 100)
